@@ -15,7 +15,7 @@ st.set_page_config(
     layout="wide"
 )
 
-BASE_PATH = os.path.join(os.path.dirname(__file__), 'dataset/')
+BASE_PATH = os.path.join(os.path.dirname(__file__), 'data/')
 
 @st.cache_data
 def load_data():
